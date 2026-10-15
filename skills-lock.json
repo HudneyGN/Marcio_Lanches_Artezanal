@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "typesafe-ai": {
+      "source": "typesafe-ai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/typesafe-ai/SKILL.md",
+      "computedHash": "a6ed7d8a3d2b2d962f8e44b17663767c433b7d1fc32d1ed0349a44f7372513e8"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-skills/SKILL.md",
+      "computedHash": "a804b4e848059822638c390359976f7021380bcefb1469d473aa4e9202c15ecb"
+    },
+    "vite-react": {
+      "source": "rebyteai-template/rebyte-skills",
+      "sourceType": "github",
+      "skillPath": "vite-react/SKILL.md",
+      "computedHash": "71c6048e06eb1b8e25be3e764e0b4e017d7b6cb90374301eb497eb715d744d6b"
+    }
+  }
+}

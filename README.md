@@ -2,7 +2,16 @@
 
 Catálogo digital para uma lanchonete de bairro. A primeira versão permite que o cliente navegue pelo cardápio, monte o pedido e envie o resumo para o WhatsApp da loja.
 
-O sistema ainda não foi implementado. As decisões que orientarão a construção estão em [docs/arquitetura-mvp.md](docs/arquitetura-mvp.md).
+O frontend inicial do MVP está implementado com React, Vite, TypeScript e Tailwind CSS. As decisões de produto e arquitetura estão em [docs/arquitetura-mvp.md](docs/arquitetura-mvp.md).
+
+## Como executar
+
+```bash
+npm install
+npm run dev
+```
+
+Use `npm run build` para validar o build de produção.
 
 ## Objetivo do MVP
 

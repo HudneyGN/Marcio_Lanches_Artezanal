@@ -1,0 +1,24 @@
+# Dependências e artefatos de build
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos locais de automação e ferramentas
+.playwright-mcp/
+.agents/
+
+# Cobertura, logs e arquivos do sistema
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Configurações locais do editor
+.vscode/
+.idea/

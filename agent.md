@@ -1,8 +1,8 @@
-# Guia do agente — Mário Lanches
+# Guia do agente — Márcio Lanches Artesanais
 
 ## Contexto do projeto
 
-O **Mário Lanches** é um catálogo digital para uma lanchonete de bairro. O MVP
+O **Márcio Lanches Artesanais** é um catálogo digital para uma lanchonete de bairro. O MVP
 permite que a pessoa cliente navegue pelo cardápio, monte um pedido e abra o
 WhatsApp da loja com um resumo pré-preenchido. A confirmação de disponibilidade,
 valor final, pagamento e entrega é feita pela equipe da lanchonete no WhatsApp.

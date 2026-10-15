@@ -1,10 +1,10 @@
-# Arquitetura do MVP — Mário Lanches
+# Arquitetura do MVP — Márcio Lanches Artesanais
 
 ## 1. Visão do produto
 
-O Mário Lanches é um catálogo online para atendimento de clientes do bairro. A primeira versão deve reduzir a fricção do pedido: o cliente escolhe produtos no site, confere o resumo e abre o WhatsApp da lanchonete com a mensagem preenchida. A confirmação de disponibilidade, valor final, pagamento e entrega continua humana, feita pela equipe da loja.
+O Márcio Lanches Artesanais é um catálogo online para atendimento de clientes do bairro. A primeira versão deve reduzir a fricção do pedido: o cliente escolhe produtos no site, confere o resumo e abre o WhatsApp da lanchonete com a mensagem preenchida. A confirmação de disponibilidade, valor final, pagamento e entrega continua humana, feita pela equipe da loja.
 
-**Estado do projeto:** planejamento; esta pasta ainda não contém aplicação, dependências ou repositório Git inicializado.
+**Estado do projeto:** o frontend inicial está implementado com React, Vite e TypeScript. O catálogo, o carrinho local e a abertura do WhatsApp funcionam com dados demonstrativos; antes da publicação, o cardápio e as informações comerciais devem ser revisados pela loja.
 
 ## 2. Decisões tomadas
 
@@ -187,10 +187,10 @@ Não criar monorepo nesta fase. A separação entre componentes, dados, regras d
 
 ## 9. Publicação planejada
 
-1. Criar o projeto React/Vite e configurar os testes.
-2. Inicializar Git e publicar em um repositório GitHub.
-3. Criar projeto no Cloudflare Pages e conectá-lo ao repositório.
-4. Configurar `npm run build` como comando de build, `dist` como diretório de saída e `main` como branch de produção.
+1. Revisar os dados demonstrativos do cardápio, disponibilidade, horários e entrega com a loja.
+2. Configurar e executar os testes de regras de pedido e mensagem do WhatsApp.
+3. Publicar o repositório no GitHub.
+4. Criar o projeto no Cloudflare Pages, usando `npm run build`, `dist` e a branch `main`.
 5. Validar a URL `pages.dev` em celular e desktop antes de divulgar.
 
 Domínio próprio não é necessário para o lançamento. Caso seja adotado depois, deve ser configurado no Cloudflare sem alterar a arquitetura do frontend.
@@ -207,4 +207,4 @@ As decisões técnicas estão fechadas, mas os seguintes dados devem ser forneci
 
 ## 11. Próximo passo prático
 
-Criar o frontend do MVP com o esqueleto acima, dados demonstrativos isolados e configurações centralizadas. Depois de validado visualmente e no fluxo de WhatsApp, substituir os dados demonstrativos pelos dados reais e publicar no Cloudflare Pages.
+Revisar os dados demonstrativos com a loja e concluir os testes do fluxo de pedido. O número comercial configurado para a abertura do WhatsApp é centralizado em `src/config/store.ts`; não deve ser repetido nos componentes. Depois da validação visual e do fluxo de WhatsApp, publicar no Cloudflare Pages.

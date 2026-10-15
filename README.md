@@ -1,4 +1,4 @@
-# Mário Lanches
+# Márcio Lanches Artesanais
 
 Catálogo digital para uma lanchonete de bairro. A primeira versão permite que o cliente navegue pelo cardápio, monte o pedido e envie o resumo para o WhatsApp da loja.
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Use `npm run build` para validar o build de produção.
+Use `npm test` para executar as regras automatizadas do carrinho e da mensagem de WhatsApp. Use `npm run build` para validar o build de produção.
 
 ## Objetivo do MVP
 

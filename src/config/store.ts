@@ -1,6 +1,7 @@
 export const store = {
-  name: 'Mário Lanches',
-  whatsappNumber: '5500000000000',
+  name: 'Márcio Lanches Artesanais',
+  whatsappNumber: '5515991016731',
   status: 'Aberto hoje até 23h',
-  deliveryNote: 'A taxa de entrega é confirmada pela loja no WhatsApp.',
+  deliveryFeePerKmInCents: 95,
+  deliveryNote: 'A taxa é estimada em R$ 0,95 por km e confirmada pela loja no WhatsApp.',
 }
